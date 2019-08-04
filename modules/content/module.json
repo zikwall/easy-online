@@ -1,0 +1,9 @@
+{
+    "id": "content",
+    "name": "ContentContainer Module",
+    "description": "Content nCore Module",
+    "keywords": [
+        "core"
+    ],
+    "version": "1.0"
+}

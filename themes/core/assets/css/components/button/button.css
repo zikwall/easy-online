@@ -1,0 +1,95 @@
+.button_wide button, .flat_button.button_wide {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button_wide button, .flat_button.secondary.in_profile{
+    width: 100%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.button_gray button, .flat_button.secondary {
+    background-color: #e5ebf1;
+    color: #55677d;
+}
+.flat_button.danger {
+    background-color: #dc3545;
+    color: #fff;
+}
+.flat_button.success {
+    background-color: #28a745;
+    color: #fff;
+}
+.button_wide {
+    display: block;
+}
+.page_block_header .flat_button, .page_block_sub_header .flat_button, .ui_tabs_header .flat_button {
+    float: right;
+    margin-top: 14px;
+    margin-left: 10px;
+    line-height: 11px;
+}
+.button_blue button, .button_gray button, .button_light_gray button, .flat_button {
+    padding: 7px 16px 8px;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 12.5px;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    vertical-align: top;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #5181b8;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.flat_button.dark {
+    color: #777!important;
+}
+.flat_button.white {
+    color: #fff!important;
+}
+
+.page_actions_btn.narrow.stats {
+    /*width: 36px;*/
+    background-image: url(https://vk.com/images/icons/profile_statistics.png?1);
+    background-repeat: no-repeat;
+    background-position: center 8px;
+}
+
+.btn-default {
+    background: #ededed;
+    color: #7a7a7a !important;
+}
+.btn-search {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}

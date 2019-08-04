@@ -1,0 +1,36 @@
+.groups_list {
+    padding: 0 20px;
+}
+group_list_row:last-child {
+    border-bottom: 0;
+}
+.group_list_row {
+    position: relative;
+    border-bottom: 1px solid #e7e8ec;
+    padding: 15px 0;
+}
+.group_row_photo, .group_row_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.group_row_photo {
+    float: left;
+    margin-right: 12px;
+}
+.group_row_img {
+    overflow: hidden;
+}
+.group_row_photo, .group_row_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.group_row_info {
+    overflow: hidden;
+    color: #656565;
+    padding-top: 2px;
+}
+.group_row_labeled {
+    padding-top: 6px;
+}

@@ -1,0 +1,16 @@
+.narrow_column_wrap {
+    position: relative;
+    /* width: 230px; */
+}
+.narrow_column {
+    /* width: 230px; */
+}
+.wide_column_right .narrow_column_wrap {
+    float: left;
+}
+.wide_column_right .wide_column_wrap {
+    margin-left: 245px;
+}
+.wide_column_right .wide_column {
+    float: right;
+}

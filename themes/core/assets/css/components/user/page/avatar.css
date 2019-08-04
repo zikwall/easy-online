@@ -1,0 +1,117 @@
+.page_avatar {
+    max-height: 300px;
+}
+.page_avatar {
+    text-align: center;
+    max-height: 500px;
+    height: auto!important;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 2px;
+}
+.page_avatar_img {
+    vertical-align: top;
+    border-radius: 2px;
+    max-width: 200px;
+}
+.page_avatar_wrap {
+    margin-bottom: 2px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* --- sub avatar elements ---*/
+
+.page_action_left {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.page_photo .flat_button, .page_photo .page_actions_expanded, .page_photo .page_actions_wrap {
+    margin-top: 10px;
+}
+
+/* --- photo section --- */
+
+.page_photo {
+    padding: 15px;
+    font-size: 12.5px;
+}
+
+/* --- editor section ---*/
+
+.owner_photo_top_bubble_wrap {
+    position: relative;
+    z-index: 10;
+}
+.owner_photo_wrap:hover .owner_photo_top_bubble {
+    opacity: 1;
+    filter: none;
+}
+.owner_photo_top_bubble {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.page_photo .ui_thumb_x_button {
+    border-radius: 0 2px 0 2px;
+}
+.ui_thumb_pe_button, .ui_thumb_x_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(29,32,34,.6);
+    border-radius: 0 0 0 2px;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.ui_thumb_pe_button .ui_thumb_pe, .ui_thumb_pe_button .ui_thumb_x, .ui_thumb_x_button .ui_thumb_pe, .ui_thumb_x_button .ui_thumb_x {
+    display: block;
+    background: url(../../../../resources/img/attach_icons.png) no-repeat 0 -40px;
+    opacity: 0.85;
+    filter: alpha(opacity=85);
+    width: 8px;
+    height: 8px;
+}
+.owner_photo_bubble_wrap {
+    position: relative;
+    overflow: hidden;
+    height: 56px;
+    width: 200px;
+    margin: -58px 0 2px;
+}
+.owner_photo_bubble {
+    color: #fff;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    background-color: #000;
+    background-color: rgba(29,32,34,.7);
+    width: 200px;
+    margin-top: 40px;
+    -o-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    border-radius: 0 0 2px 2px;
+    padding: 5px 0;
+}
+.owner_photo_bubble_action {
+    font-size: 12.5px;
+    padding: 5px 10px;
+    height: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    outline: none;
+}
+.owner_photo_bubble_action_in {
+    background: url(https://vk.com/images/icons/edit_photo_icons_white.png?2) no-repeat;
+    background-position: left 1px;
+    -o-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+    padding: 0 0 1px 24px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}

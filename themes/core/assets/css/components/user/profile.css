@@ -1,0 +1,49 @@
+.profile_career_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.profile_action_btn profile_msg_split {
+    width: 100%;
+}
+.profile_msg_split .cut_left {
+    width: 80%;
+    float: left;
+}
+.profile_gift_icon {
+    background: url(https://vk.com/images/icons/gift_icon.png) no-repeat;
+    background-position: left 2px;
+    padding-right: 21px;
+}
+.progress, .progress_inv, .progress_inv_img {
+    display: none;
+    height: 15px;
+    width: 32px;
+    background: url(//vk.com/images/upload.gif) no-repeat 50% 50%;
+}
+.profile_msg_split .profile_btn_cut_left {
+    border-radius: 4px 0 0 4px;
+    border-right: 1px solid #6a98cc;
+    height: 30px;
+}
+.profile_action_btn button {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.profile_btn_cut_left {
+    width: 100%;
+}
+.profile_msg_split .cut_right {
+    width: 15%;
+    float: left;
+}
+.profile_msg_split .profile_btn_cut_right {
+    border-radius: 0 4px 4px 0;
+    border-right: 1px solid #5e82a7;
+    height: 30px;
+    width: 38px;
+    padding-left: 11px;
+}
+.profile_msg_none, .profile_gift_text {
+    display: none;
+}

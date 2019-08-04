@@ -1,0 +1,13 @@
+.page_block .module:first-child, .page_block>:empty+.module {
+    border-width: 0;
+}
+.page_info_wrap {
+    padding: 15px 20px;
+}
+.wide_column .page_info_wrap .page_top {
+    padding: 0 0 15px;
+}
+.wide_column .page_top {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e7e8ec;
+}

@@ -1,0 +1,27 @@
+.wide_column_right .narrow_column_wrap {
+    float: left;
+}
+.narrow_column_wrap {
+    position: relative;
+    /* width: 230px; */
+}
+.narrow_column {
+    /* width: 230px; */
+}
+.wide_column_right .wide_column_wrap {
+    margin-left: 245px;
+}
+.wide_column_right .wide_column {
+    float: right;
+}
+.wide_column {
+    position: relative;
+    width: 100%;
+}
+.wide_column .page_info_wrap .page_top {
+     padding: 0 0 15px;
+ }
+.wide_column .page_top {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e7e8ec;
+}

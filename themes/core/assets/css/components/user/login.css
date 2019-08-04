@@ -1,0 +1,31 @@
+.login_page #footer-wrap {
+    bottom: 0;
+    left: 0;
+    position: relative;
+    margin-top: 75px;
+    padding: 24px 15px 35px;
+    border-top: 1px solid #e4e8ed;
+    width: 100%;
+}
+.footer-wrap {
+    line-height: 1.36em;
+    padding: 16px 10px 35px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.footer-column {
+    margin-right: 5px;
+    max-width: 400px;
+    float:left;
+    display: inline-block;
+}
+.footer-column .f-nav {
+    color: #828282;
+    padding: 2px 5px;
+}
+.footer-column.column-offset-1 {
+    width: 20%;
+}
+.footer-column.column-offset-2 {
+    width: 40%;
+}

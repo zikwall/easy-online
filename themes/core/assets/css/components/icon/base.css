@@ -1,0 +1,9 @@
+.ui_calendar_icon {
+    float: right;
+    margin: 7px 10px 0 0;
+    width: 15px;
+    height: 15px;
+    background: url(//vk.com/images/icons/calendar.png?2) no-repeat 0 0;
+    opacity: 0.75;
+    filter: alpha(opacity=75);
+}

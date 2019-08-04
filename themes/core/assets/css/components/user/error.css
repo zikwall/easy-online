@@ -1,0 +1,20 @@
+.profile_deleted_text, .profile_blocked {
+    text-align: center;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+}
+.profile_deleted_text {
+    color: #656565;
+    padding: 25px 0 40px;
+    line-height: 165%;
+    font-size: 13px;
+    margin: 0;
+}
+#profile_info.page_top {
+    padding: 0 0 15px;
+}
+#profile_info.page_top {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e7e8ec;
+}

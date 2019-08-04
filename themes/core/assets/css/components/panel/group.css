@@ -1,0 +1,44 @@
+.group_online_block {
+    padding: 9px 15px 9px 12px;
+    cursor: pointer;
+}
+.group_subscribe_channel_block .group_online_answer_pict {
+    position: relative;
+    background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.or….3s.8-.1%201-.4c.5-.6.4-1.7-.1-4%200-.1.1-.3.2-.3h.3z%22%2F%3E%3C%2Fsvg%3E) no-repeat 0 4px;
+}
+.group_online_answer_pict {
+    display: block;
+    margin-top: 3px;
+    width: 24px;
+    height: 24px;
+    background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D%2224%22%20height%3D%2224…3-3.833%202.5-4.5z%22%20fill%3D%22%23ADD3FF%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E) no-repeat 0 0;
+    border: 0;
+}
+.group_subscribe_channel_block .group_online_answer_pict:after {
+    position: absolute;
+    top: 6px;
+    left: 19px;
+    width: 7px;
+    height: 11px;
+    background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.or….2-1-1.4-.3-.3-.9-.3-1.3%200s-.3.9.1%201.2z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E) no-repeat 0 0;
+    -o-animation: group_subscribe_channel_animation 5s linear infinite;
+    animation: group_subscribe_channel_animation 5s linear infinite;
+    content: '';
+}
+.group_online_answer_status {
+    padding-left: 12px;
+}
+.group_online_answer_status_title, .group_online_status_title {
+    margin: 0;
+    color: #2e7ad1;
+    line-height: 1.23;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.group_online_answer_status_description, .group_online_status_description {
+    margin: 0;
+    color: #656565;
+    line-height: 1.45;
+    font-size: 11px;
+}

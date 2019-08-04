@@ -1,0 +1,78 @@
+.page_block .module:first-child, .page_block>:empty+.module {
+    border-width: 0;
+}
+.module {
+    border: solid #e7e8ec;
+    border-width: 1px 0 0;
+}
+.header_right_link {
+    color: #939393;
+    height: 32px;
+    line-height: 40px;
+    font-size: 12.5px;
+    margin-right: 15px;
+}
+.module_header {
+    display: block;
+}
+.module_header .header_top {
+    height: 32px;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 0 15px;
+    margin: 0;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    font-size: 12.5px;
+    letter-spacing: 0;
+    outline: none;
+    color: #000;
+}
+.module_header .header_label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+.module_header .header_count {
+    color: #939393;
+    padding: 0 6px;
+}
+
+.people_module .module_body {
+    padding: 6px 10px 8px;
+}
+.narrow_column .people_module .people_row {
+    width: 210px;
+    overflow: hidden;
+}
+.module_body .people_cell {
+    float: left;
+    width: 70px;
+    overflow: hidden;
+    padding: 6px 0 5px;
+    text-align: center;
+}
+.module_body .people_cell_ava {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    padding-bottom: 7px;
+}
+.module_body .people_cell_img {
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.module_body .people_cell_name {
+    line-height: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+
+

@@ -1,0 +1,170 @@
+.page_cover {
+    height: 200px;
+    border-radius: 2px 2px 0 0;
+    background-position: 50%;
+    background-size: cover;
+}
+.crisp_image {
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+.page_cover_info {
+    padding: 12px 15px;
+}
+.page_cover_actions {
+    float: right;
+    padding: 8px 5px;
+}
+.group_actions_wrap {
+    position: relative;
+}
+.page_cover_info .group_actions_wrap_redesign .page_actions {
+    min-width: 160px;
+}
+.page_cover_info .page_actions {
+    min-width: 203px;
+}
+.page_cover_info .group_cta, .page_cover_info .group_send_msg, .page_cover_info .page_actions>.flat_button {
+    float: left;
+    width: 157px;
+    margin-right: 10px;
+}
+
+.page_cover_info .page_actions_wide.redesign, .page_cover_info .page_actions_wide.redesign .page_action_left {
+    width: 156px;
+}
+.page_cover_info .page_actions_wide {
+    float: left;
+    width: 203px;
+    height: 30px;
+}
+.page_cover_info .page_actions_wide.redesign, .page_cover_info .page_actions_wide.redesign .page_action_left {
+    width: 156px;
+}
+.page_actions_wide.no_actions .page_action_left {
+    width: 200px;
+}
+.page_actions_dd_label, .page_actions_header_inner {
+    color: #55677d;
+    padding-right: 13px;
+    background: url(//vk.com/images/svg_icons/contour_arrow.svg) no-repeat;
+    background-position: right 7px;
+}
+
+.page_cover_image {
+    position: relative;
+    float: left;
+    height: 46px;
+    width: 46px;
+    margin-right: 7px;
+}
+.page_cover_info .post_img {
+    height: 46px;
+    width: 46px;
+}
+.post_img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: top;
+}
+.page_cover_info .page_top {
+    overflow: hidden;
+    padding: 2px 11px 5px 5px;
+    margin: 0 0 -5px;
+}
+.page_name, h2.page_name {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    margin: -1px 0 -1px -1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1px;
+}
+.page_name .page_top_author, .page_name .page_verified {
+    top: 1px;
+}
+.page_verified {
+    background: url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.or…22%20stroke-linejoin%3D%22round%22%2F%3E%0A%20%20%3C%2Fg%3E%0A%3C%2Fsvg%3E) no-repeat 0;
+}
+.page_top_author, .page_verified {
+    display: inline;
+    zoom: 1;
+    position: relative;
+    margin-left: 7px;
+    padding: 2px 16px 2px 0;
+}
+.page_current_info {
+    padding: 3px 0 1px;
+}
+.current_text, .my_current_info, .no_current_info, .page_current_audio {
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.current_text, .my_current_info, .no_current_info {
+    display: block;
+    width: 100%;
+}
+
+.page_cover_info .group_actions_wrap_redesign .page_actions .redesign .page_actions_wrap {
+    width: 154px;
+}
+.page_actions_wide.no_actions .page_actions_wrap {
+    width: 198px;
+}
+.page_action_left .page_actions_wrap {
+    width: 155px;
+}
+.page_cover_info .page_actions_wrap {
+    width: 201px;
+}
+.page_actions_wrap {
+    position: absolute;
+    top: 0;
+    width: 198px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    border: 1px solid #c5d0db;
+    font-size: 12.5px;
+    z-index: 20;
+}
+.page_actions_header {
+    text-align: center;
+    line-height: 15px;
+    border-radius: 3px 3px 0 0;
+    background: #dce1e6;
+    padding: 6px 0 7px;
+    cursor: pointer;
+}
+.page_actions_dd_label, .page_actions_header_inner {
+    color: #55677d;
+    padding-right: 13px;
+    background: url(//vk.com/images/svg_icons/contour_arrow.svg) no-repeat;
+    background-position: right 7px;
+}
+.page_actions_item, .page_actions_item span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.page_actions_item {
+    position: relative;
+    padding: 0 13px;
+    height: 28px;
+    line-height: 28px;
+    color: #2a5885;
+    white-space: nowrap;
+    outline: none;
+}
+a {
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+}

@@ -1,0 +1,6 @@
+.pedit_separator {
+    /* width: 512px; */
+    margin: 15px auto 20px;
+    height: 0;
+    border-top: 1px solid #e7e8ec;
+}

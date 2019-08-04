@@ -1,0 +1,201 @@
+.module-catalog-header {
+    display: block;
+    height: 159px;
+    background: url(/resources/img/apps_groups_catalog_header.png) no-repeat right 0;
+    border-bottom: 1px solid #e7e8ec;
+}
+.module-catalog-header {
+    -ms-high-contrast-adjust: none;
+}
+.module-catalog-header .module-catalog-header-desc.from-page {
+    width: 250px;
+}
+.module-catalog-header .module-catalog-header-desc {
+    width: 200px;
+    padding: 41px 0 0 32px;
+}
+.module-catalog-header .module-catalog-header-desc .module-catalog-header-desc_text {
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 16px;
+    letter-spacing: 0.4px;
+    line-height: 1.2;
+}
+.module-catalog-header .module-catalog-header-desc.from-page .module-catalog-header-desc-link::after {
+    content: none;
+}
+.module-catalog-goto-arrow::after {
+    content: ' ';
+    height: 8px;
+    width: 6px;
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%228%22%20height%3D%228%22%20viewBox%3D%2288%204%208%208%22%3E%3Cg%20fill%3D%22none%22%3E%3Crect%20x%3D%2288%22%20y%3D%224%22%20width%3D%228%22%20height%3D%228%22%2F%3E%3Cpath%20d%3D%22M90.2%2010.8C90%2011.1%2090%2011.5%2090.3%2011.7%2090.6%2011.9%2091%2011.9%2091.2%2011.6L93.8%208.4C94%208.2%2094%207.8%2093.8%207.6L91.2%204.4C91%204.1%2090.6%204.1%2090.3%204.3%2090%204.5%2090%204.9%2090.2%205.2L92.5%208%2090.2%2010.8Z%22%20fill%3D%22%239CB0C3%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+    display: inline-block;
+    left: 0;
+    position: relative;
+}
+.module-catalog-header .module-catalog-header-desc.from-page .module-catalog-header-desc-link {
+    color: #656565;
+}
+.module-catalog-header .module-catalog-header-desc .module-catalog-header-desc-link {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.57;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+}
+.module-catalog-with-suggest {
+    margin-bottom: 47px;
+}
+.module-catalog-rows {
+    padding: 8px 20px;
+}
+.module-catalog-rows .module-catalog-row {
+    border-bottom: 1px solid #e7e8ec;
+    padding: 12px 0px 11px;
+}
+.module-catalog-rows .module-catalog-row .module-catalog-row-img {
+    margin-right: 12px;
+    width: 56px;
+    height: 56px;
+    float: left;
+    border-radius: 3px;
+}
+.module-catalog-rows .module-catalog-row .module-catalog-row-img .module-catalog-row-img-img {
+    width: 56px;
+    height: 56px;
+    border-radius: 3px;
+}
+.module-catalog-rows .module-catalog-row .module-catalog-row_add, .module-catalog-rows .module-catalog-row .module-catalog-row_added {
+    float: right;
+    height: 52px;
+    line-height: 52px;
+}
+.module-catalog-rows .module-catalog-row .module-catalog-row_add .flat_button, .module-catalog-rows .module-catalog-row .module-catalog-row_added .flat_button {
+    vertical-align: middle;
+}
+.ecnore_button_blue button, .ecnore_button_gray button, .ecnore_button_light_gray button, .flat_button {
+    padding: 7px 16px 8px;
+    margin: 0;
+    font-size: 12.5px;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    vertical-align: top;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #5181b8;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.module-catalog-rows .module-catalog-row .module-catalog-row-info .module-catalog-row-name {
+    max-height: 16px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    font-weight: 500;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+}
+.module-catalog-rows .module-catalog-row .module-catalog-row-info .module-catalog-row-field {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* max-height: 15px;*/
+    padding-right: 10px;
+}
+.module-catalog-rows .module-catalog-row .module-catalog-row-info .module-catalog-row-desc {
+    margin: 3px 0;
+}
+.module-catalog-rows .module-catalog-row .module-catalog-row-count {
+    color: #939393;
+}
+.module-catalog-rows .module-catalog-row .module-catalog-row_add .flat_button, .module-catalog-rows .module-catalog-row .module-catalog-row_added .flat_button {
+    vertical-align: middle;
+}
+a:not([href]):not([tabindex]) {
+    color: inherit;
+    text-decoration: none;
+}
+.ecnore_button_blue button, .ecnore_button_gray button, .ecnore_button_light_gray button, .flat_button {
+    padding: 7px 16px 8px;
+    margin: 0;
+    font-size: 12.5px;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    vertical-align: top;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #5181b8;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.module-catalog-suggest-app {
+    position: absolute;
+    width: 100%;
+    bottom: -32px;
+    text-align: center;
+    font-size: 13px;
+    color: #6f7985;
+}
+
+/* --- apps catalog app labels --- */
+
+.module-catalog-rows .module-catalog-row .module-catalog-row-info .encore_module_catalog_label_new {
+    background-color: rgb(238, 93, 74);
+}
+.encore_module_label, .module-catalog-rows
+.module-catalog-row .module-catalog-row-info
+.encore_module_catalog_label_new, .module-catalog-rows
+.module-catalog-row .module-catalog-row-info
+.module-catalog-label-widget {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 7px;
+    line-height: 12px;
+    flex-shrink: 0;
+    padding: 2px 5px;
+    border-radius: 13px;
+}
+
+.module-catalog-rows .module-catalog-row .module-catalog-row-info .module-catalog-label-widget {
+    background-color: rgb(92, 156, 230);
+}
+.encore_module_catalog_label, .module-catalog-rows
+.module-catalog-row .module-catalog-row-info
+.encore_module_catalog_label_new, .module-catalog-rows
+.module-catalog-row .module-catalog-row-info
+.module-catalog-label-widget {
+    display: inline-block;
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 7px;
+    line-height: 12px;
+    flex-shrink: 0;
+    padding: 2px 5px;
+    border-radius: 13px;
+}

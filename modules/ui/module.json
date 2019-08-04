@@ -1,0 +1,9 @@
+{
+    "id": "ui",
+    "name": "ui",
+    "description": "enCore system UI module",
+    "keywords": [
+        "ui"
+    ],
+    "version": "1.0.0"
+}

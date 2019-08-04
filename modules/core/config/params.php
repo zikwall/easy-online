@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'adminEmail' => 'admin@example.com',
+    'supportEmail' => 'support@example.com',
+    'user.passwordResetTokenExpire' => 3600,
+    'installed' => true,
+    'databaseInstalled' => true,
+    'dynamicConfigFile' => '@zikwall/easy-online/modules/core/config/dynamic.php',
+    'moduleAutoloadPaths' => ['@app/modules', '@zikwall/easy-online/modules'],
+    'moduleCustomPath' => '@app/modules',
+    'availableLanguages' => [
+        'en' => 'English (US)',
+        'en_gb' => 'English (UK)',
+        'de' => 'Deutsch',
+        'fr' => 'Français',
+        'nl' => 'Nederlands',
+        'pl' => 'Polski',
+        'pt' => 'Português',
+        'pt_br' => 'Português do Brasil',
+        'es' => 'Español',
+        'ca' => 'Català',
+        'it' => 'Italiano',
+        'th' => 'ไทย',
+        'tr' => 'Türkçe',
+        'ru' => 'Русский',
+        'uk' => 'українська',
+    ],
+    'allowedLanguages' => [],
+    'defaultPermissions' => [],
+];

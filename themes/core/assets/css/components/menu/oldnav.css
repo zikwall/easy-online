@@ -1,0 +1,211 @@
+.global-nav .people .count .count-inner {
+    background: #1DA1F2;
+}
+.global-nav .people .count.new-count, .global-dm-nav.new.with-count .dm-new {
+    display: block;
+}
+
+.global-dm-nav.new.with-count .dm-new .count-inner, .global-nav .people .count .count-inner {
+    background-color: #66757f;
+    border-radius: 8px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    line-height: 1;
+    min-width: 16px;
+    opacity: 1;
+    -ms-filter: "alpha(opacity=100)";
+    padding: 2px 4px 3px;
+}
+.global-nav {
+    /* border-bottom: 1px solid rgba(0,0,0,0.25); */
+    height: 50px;
+    position: relative;
+    width: 100%;
+}
+.global-nav, .global-nav-outer {
+    height: 40px;
+}
+.global-nav-inner {
+    background: #fff;
+    /* height: 46px; */
+}
+.global-nav .container {
+    max-width: 1190px;
+}
+.global-nav .container {
+    height: 100%;
+    max-width: 890px;
+    text-align: center;
+    width: auto;
+}
+/*.container {
+    position: relative;
+    width: 890px;
+    margin: 0 auto;
+}*/
+.bird-topbar-etched {
+    color: #1da1f2;
+    cursor: pointer;
+    font-size: 21px;
+    margin-top: 14px;
+    margin-left: -24px;
+    display: inline-block;
+    transition: all .25s ease-in-out;
+    font-weight: bold;
+}
+.nav#global-actions>li .Icon {
+    float: left;
+    margin: 11px 0 0 0px;
+    width: 23px;
+    height: 23px;
+}
+.home.active .Icon--home, .moments.active .Icon--lightning, .notifications.active .Icon--notifications {
+    display: none;
+}
+.Icon--large {
+    font-size: 21px;
+    line-height: 1;
+}
+.Icon {
+    background: transparent;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: baseline;
+    position: relative;
+}
+.u-textUserColor, .u-textUserColorHover:hover, .u-textUserColorHover:hover .ProfileTweet-actionCount, .u-textUserColorHover:focus {
+    color: #1DA1F2 !important;
+}
+@media screen and (min-width: 1236px) {
+    .pushstate-spinner {
+        position: absolute;
+        left: 50%;
+        margin-left: -13px;
+    }
+    .pushstate-spinner {
+        display: none;
+        height: 26px;
+        margin: 11px 0 0 -26px;
+        vertical-align: top;
+        width: 26px;
+    }
+}
+.global-nav [role=navigation], .nav, .nav>li {
+    float: left;
+}
+#global-actions>li {
+    height: 50px;
+    overflow: hidden;
+}
+#global-actions > li > a {
+    border-bottom-color: #1DA1F2;
+}
+#global-actions>li>a {
+    /* border-bottom: 2px solid #1c94e0; */
+    transition: all .15s ease-in-out;
+}
+.nav>li>a {
+    color: inherit;
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 0 14px 0 4px;
+}
+.nav li a {
+    position: relative;
+    font-size: 12px;
+}
+.nav-extras {
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 100%;
+}
+.global-nav .form-search {
+    /* float: left; */
+    height: 33px;
+    margin: 7px 15px 0 0;
+    font-size: 12px;
+    width: 248px;
+}
+.t1-form {
+    margin-bottom: 0;
+}
+.form-search {
+    position: relative;
+}
+.global-nav .pull-right .right-actions {
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    height: 100%;
+}
+.global-nav .pull-right .nav {
+    position: relative;
+    z-index: 5;
+}
+
+#global-actions .new:before {
+    content: "\25CF";
+    font-size: 14px;
+    left: 5px;
+    position: absolute;
+    top: 1px;
+}
+.Icon--homeFilled:before {
+    content: "\f015";
+}
+.Icon--notificationsFilled:before {
+    content: "\f019";
+}
+.Icon--dm:before {
+    content: "\f0e0";
+}
+
+.Icon:after, .Icon:before {
+    display: block;
+    font-family: "FontAwesome";
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+@media screen and (max-width: 936px) {
+    #global-nav-about, #global-nav-moments, .global-nav #global-actions li span.text {
+        position: absolute;
+        overflow: hidden;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        border: 0;
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+}
+.Icon--dm:before {
+    content: "\f054";
+}
+.global-dm-nav .dm-new, .global-nav .people .count {
+    background-color: #fff;
+    border-radius: 9px;
+    color: #fff;
+    display: none;
+    font-size: 11px;
+    left: 22px;
+    margin: 0;
+    opacity: 1;
+    -ms-filter: "alpha(opacity=100)";
+    padding: 1px;
+    position: absolute;
+    text-align: center;
+    top: 6px;
+}
+

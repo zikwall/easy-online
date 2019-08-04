@@ -1,0 +1,73 @@
+h2.page_block_h2 {
+    margin: 0px;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+.ui_tabs_header {
+    background-color: #fafbfc;
+}
+.ui_tabs_header, .ui_tabs_sub_header {
+    font-size: 14px;
+    border-radius: 2px 2px 0 0;
+}
+.ui_tabs {
+    position: relative;
+    border-bottom: 1px solid #e7e8ec;
+    padding: 0 10px;
+    margin: 0;
+    list-style: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+.ui_tabs_box .ui_tab:hover, .ui_tabs_box .ui_tab_sel, .ui_tabs_header .ui_tab:hover, .ui_tabs_header .ui_tab_sel, .ui_tabs_sub_header .ui_tab:hover, .ui_tabs_sub_header .ui_tab_sel {
+    padding-bottom: 18px;
+}
+.ui_tabs_box .ui_tab, .ui_tabs_box .ui_tab_sel, .ui_tabs_header .ui_tab, .ui_tabs_header .ui_tab_plain, .ui_tabs_header .ui_tab_sel, .ui_tabs_sub_header .ui_tab, .ui_tabs_sub_header .ui_tab_plain, .ui_tabs_sub_header .ui_tab_sel {
+    padding: 18px 6px 20px;
+    padding-bottom: 20px;
+    line-height: 17px;
+    height: 17px;
+}
+.ui_tab_sel, .ui_tab_sel:hover, .ui_tabs .ui_tab_sel, .ui_tabs .ui_tab_sel:hover, .ui_tabs_box .ui_tab_sel, .ui_tabs_box .ui_tab_sel:hover {
+    border-bottom: 2px solid #5181b8;
+    padding-bottom: 13px;
+}
+.ui_tab_sel, .ui_tabs .ui_tab_sel, .ui_tabs_box .ui_tab_sel {
+    color: #000;
+}
+.ui_tab, .ui_tabs .ui_tab {
+    color: #656565;
+    float: left;
+    -o-transition: color 0.2s ease;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+.ui_tab, .ui_tab_plain {
+    display: block;
+    padding: 16px 6px 15px;
+    margin: 0 4px -1px;
+    outline: none;
+}
+.ui_tab_count {
+    padding-left: 6px;
+    font-size: 13px;
+    color: #939393;
+}
+.ui_box_search, .ui_tab_count, .ui_tab_search::after, .ui_thumb_pe_button .ui_thumb_pe, .ui_thumb_pe_button .ui_thumb_x, .ui_thumb_x_button .ui_thumb_pe, .ui_thumb_x_button .ui_thumb_x, .ui_zoom_icon {
+    -o-transition: opacity 0.15s ease;
+    transition: opacity 0.15s ease;
+}
+
+.ui_tabs .flat_button, .ui_tabs .side_link {
+    float: right;
+    margin-top: 14px;
+}
+.ui_tabs .flat_button {
+    margin-right: 10px;
+    line-height: 11px;
+}

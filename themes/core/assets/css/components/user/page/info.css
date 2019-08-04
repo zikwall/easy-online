@@ -1,0 +1,139 @@
+.page_name, h2.page_name {
+    font-size: 19px;
+    line-height: 25px;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    margin: -1px 0 -1px -1px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 1px;
+}
+.page_current_info {
+    padding: 3px 0 1px;
+}
+.page_status_editor {
+    position: absolute;
+    z-index: 10;
+    margin: -21px 0 0;
+    left: -6px;
+    right: -6px;
+    text-align: left;
+    display: none;
+}
+.page_status_editor .editor {
+    border: 1px solid #d3d9de;
+    border-radius: 2px;
+    background-color: #fafbfc;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
+    padding: 15px;
+}
+.profile_info_short {
+    padding-top: 10px;
+}
+.profile_info {
+    line-height: 150%;
+}
+.profile_info_row {
+    padding-top: 5px;
+}
+.profile_info .label {
+    width: 250px;
+    text-align: left!important;
+    color: #828282!important;
+}
+.profile_info .labeled {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.profile_info .labeled>a {
+    unicode-bidi: embed;
+}
+.counts_module {
+    text-align: center;
+    border-top: 1px solid #e7e8ec;
+    max-height: 69px;
+    overflow: hidden;
+}
+.page_counter {
+    display: inline-block;
+    padding: 15px;
+}
+.page_counter .count {
+    font-size: 19px;
+    color: #42648b;
+    padding-bottom: 3px;
+    line-height: 21px;
+}
+
+.page_counter .label {
+    line-height: 15px;
+    color: #828282!important;
+}
+.profile_info_header_wrap {
+    border-bottom: none;
+    position: relative;
+    margin: -11px 0 4px;
+}
+.profile_info_header_wrap a {
+    text-transform: none;
+    color: #929eb0!important;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -o-transition: opacity 0.1s ease;
+    transition: opacity 0.1s ease;
+}
+.profile_info_header_wrap a:hover {
+    opacity: 1;
+}
+.profile_info_edit {
+    float: right;
+    background-color: #fff;
+    padding-left: 7px;
+}
+.profile_info_header {
+    padding-bottom: 4px;
+    padding-right: 7px;
+    background-color: #fff;
+}
+.profile_info_block {
+    padding: 0 0 29px;
+    border-top: 1px solid #e7e8ec;
+}
+.profile_more_info_link {
+    display: block;
+    padding-left: 250px;
+    margin: 10px 0 -5px;
+    border-radius: 4px;
+    height: 34px;
+    line-height: 32px;
+}
+.profile_more_info_link:hover {
+    background-color: #f0f2f5;
+    text-decoration: none;
+}
+.profile_more_info_link {
+    color: #2a5885;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.info_shown .profile_label_more, .profile_label_less {
+    display: none;
+}
+.info_shown .profile_label_less {
+    display: inline;
+}
+.profile_info_full {
+    padding-top: 24px;
+    display: none;
+}
+.profile_info .relation_request {
+    position: relative;
+}
+.profile_info .relation_request .progress {
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+

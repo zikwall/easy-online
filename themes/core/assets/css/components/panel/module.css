@@ -1,0 +1,31 @@
+.module {
+    border: solid #e7e8ec;
+    border-width: 1px 0 0;
+}
+.module_body {
+    padding: 12px 15px 15px;
+    font-size: 12.5px;
+}
+.module_header .header_label {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+.module_header .header_count {
+    color: #939393;
+    padding: 0 6px;
+}
+.module_header .header_top {
+    height: 32px;
+    line-height: 40px;
+    overflow: hidden;
+    padding: 0 15px;
+    margin: 0;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    font-size: 12.5px;
+    letter-spacing: 0;
+    outline: none;
+    color: #000;
+}

@@ -1,0 +1,10 @@
+{
+    "id": "developer",
+    "name": "Уголок разработчика",
+    "description": "enCore Developer Tools",
+    "keywords": ["gii", "tools", "development"],
+    "version": "0.1",
+    "en-core": {
+        "minVersion": "1.0.0"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "id": "message",
+    "name": "Messages",
+    "description": "Private messaging system to communicate with one or more users.",
+    "keywords": ["mail", "messaging", "communication"],
+    "version": "1.0.10",
+    "encore": {
+        "minVersion": "1.3.3"
+    },
+    "screenshots": ["assets/screen1.jpg"]
+}

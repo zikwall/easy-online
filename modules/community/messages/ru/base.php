@@ -1,0 +1,23 @@
+<?php
+return [
+    'Administrator:' => '',
+    'Moderator:' => '',
+    'Owner:' => '',
+    '<strong>Community</strong> followers' => 'Участники <strong>сообщества</strong>',
+    'Could not delete user who is a community owner! Name of Community: {communityName}' => 'Нельзя удалить владельца сообщества. Сообщество: {communityName}',
+    'Default' => 'По умолчанию',
+    'Everyone can enter' => 'Каждый может вступить',
+    'Invite and request' => 'Приглашение и запрос',
+    'No communitys found.' => 'Сообщества не найдены.',
+    'Only by invite' => 'Только по приглашению',
+    'Private' => 'Приватно',
+    'Private (Invisible)' => 'Приватное (Скрыто)',
+    'Public' => 'Публичное',
+    'Public (Members & Guests)' => 'Открыто (Участники & Гости)',
+    'Public (Members only)' => 'Открыто (Только участники)',
+    'Public (Registered users only)' => 'Открыто (Только для зарегистрированных)',
+    'Public (Visible)' => 'Публичное (Видимо)',
+    'Settings' => 'Настройки',
+    'Community' => 'Сообщества',
+    'Visible for all (members and guests)' => 'Видимо для всех (Участники и гости)',
+];

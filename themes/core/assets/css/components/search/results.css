@@ -1,0 +1,120 @@
+.ts_cont_wrap {
+    /* position: absolute; */
+    top: 45px;
+    left: 173px;
+    background: #fff;
+    width: 248px;
+    z-index: 800;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0,0,0,.2);
+    overflow: hidden;
+    display: none;
+}
+a.ts_contact {
+    /* height: 34px; */
+    padding: 8px 10px;
+}
+a.ts_contact, a.ts_search_link {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.ts_contact_photo {
+    position: relative;
+    float: left;
+    width: 34px;
+    height: 34px;
+}
+
+.ts_contact_img {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+.ts_contact_photo.online:after {
+    bottom: 0;
+    right: 0;
+    border: 2px solid #fff;
+    height: 6px;
+    width: 6px;
+}
+.ts_contact_name {
+    color: #42648b;
+    width: 165px;
+    /* height: 32px; */
+    padding-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+.ts_contact_title_wrap {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    line-height: 17px;
+    max-width: 165px;
+}
+.ts_contact_title_wrap {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    line-height: 17px;
+    max-width: 165px;
+}
+.ts_contact_info {
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    font-size: 11.5px;
+    color: #939393;
+    padding-top: 1px;
+    line-height: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.ts_contact_status {
+    position: absolute;
+    background: url(https://vk.com/images/icons/search_mobile_icon.png?1) no-repeat;
+}
+a.ts_search_link {
+    /* height: 30px; */
+    line-height: 30px;
+    padding: 8px 13px;
+}
+a.ts_contact, a.ts_search_link {
+    position: relative;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+a.ts_contact.active, a.ts_search_link.active {
+    background: #f0f2f5;
+}
+.ts_search_link .ts_contact_status {
+    background-position: 0 0;
+    top: 16px;
+    right: 11px;
+    width: 7px;
+    height: 13px;
+}
+.ts_search_sep {
+    border-top: 1px solid #e7e8ec;
+    padding: 8px 10px 5px;
+    color: #656565;
+    font-size: 11.5px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

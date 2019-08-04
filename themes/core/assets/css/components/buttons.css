@@ -1,0 +1,43 @@
+.button_blue button, .button_gray button, .button_light_gray button, .flat_button {
+    padding: 7px 16px 8px;
+    margin: 0;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 12.5px;
+    display: inline-block;
+    zoom: 1;
+    cursor: pointer;
+    white-space: nowrap;
+    outline: none;
+    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,sans-serif;
+    vertical-align: top;
+    line-height: 15px;
+    text-align: center;
+    text-decoration: none;
+    background: none;
+    background-color: rgba(0, 0, 0, 0);
+    background-color: #5181b8;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.button_wide button, .flat_button.button_wide {
+    width: 100%;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.button_gray button, .flat_button.secondary {
+    background-color: #e5ebf1;
+    color: #55677d;
+}
+.button_wide {
+    display: block;
+}
+.page_block_header .flat_button, .page_block_sub_header .flat_button, .ui_tabs_header .flat_button {
+    float: right;
+    margin-top: 14px;
+    margin-left: 10px;
+    line-height: 11px;
+}

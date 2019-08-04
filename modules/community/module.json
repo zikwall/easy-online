@@ -1,0 +1,9 @@
+{
+    "id": "community",
+    "name": "Community",
+    "description": "Community Core",
+    "keywords": [
+        "core"
+    ],
+    "version": "1.0"
+}

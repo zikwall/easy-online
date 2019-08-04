@@ -1,0 +1,9 @@
+{
+    "id": "core",
+    "name": "Core",
+    "description": "enCore system Core module",
+    "keywords": [
+        "core"
+    ],
+    "version": "1.0.0"
+}

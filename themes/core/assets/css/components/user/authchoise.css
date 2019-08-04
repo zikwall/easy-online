@@ -1,0 +1,51 @@
+.authChoiceMore {
+    display: none;
+    padding-top: 6px;
+}
+.authChoiceMore a {
+    margin-top: 6px !important;
+}
+.or-container {
+    text-align: center;
+    margin: 0;
+    margin-top: 0px;
+    margin-top: -10px;
+    padding: 0;
+    clear: both;
+    color: #6a737c;
+    font-variant: small-caps;
+}
+.or-container hr {
+    margin-bottom: 0;
+    position: relative;
+    top: 19px;
+    height: 0;
+    border: 0;
+    border-top-width: 0px;
+    border-top-style: none;
+    border-top-color: currentcolor;
+    border-top: 1px solid #e4e6e8;
+}
+.or-container div {
+    display: inline-block;
+    position: relative;
+    padding: 8px;
+    background-color: #FFF;
+}
+.btn-sm {
+    padding: 4px 8px;
+    font-size: 12px;
+}
+
+.modal-box-message b {
+    font-weight: bold!important;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+}
+
+.tabcontent-active {
+    display: block;
+}
