@@ -1,0 +1,29 @@
+{
+  "name": "zikwall/easy-online",
+  "description": "Social Communication system for you!",
+  "keywords": ["social", "yii2", "backend", "hub"],
+  "type": "yii2-extension",
+  "support": {
+    "issues": "https://github.com/zikwall/easy-online/issues?state=open",
+    "source": "https://github.com/zikwall/easy-online"
+  },
+  "authors": [
+    {
+      "name": "Andrey Kapitonov",
+      "email": "andrey.kapitonov.96@gmall.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.0",
+    "zikwall/easy-online-installer": "dev-master",
+    "jbroadway/urlify": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "zikwall\\easyonline\\": ""
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
