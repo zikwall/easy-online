@@ -13,10 +13,9 @@
       "email": "andrey.kapitonov.96@gmall.com"
     }
   ],
-  "minimum-stability": "dev",
   "require": {
     "php": ">=7.1.0",
-    "zikwall/easy-online-installer": "dev-master"
+    "zikwall/easy-online-installer": "~1.0.0"
   },
   "autoload": {
     "psr-4": {
