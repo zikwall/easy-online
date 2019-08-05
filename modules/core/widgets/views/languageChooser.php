@@ -1,6 +1,6 @@
 <?php
 
-use zikwall\easyonline\modules\core\components\CActiveForm;
+use zikwall\easyonline\modules\core\components\compatibility\CActiveForm;
 
 ?>
 <div class="text text-center animated fadeIn">

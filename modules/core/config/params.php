@@ -4,8 +4,8 @@ return [
     'adminEmail' => 'admin@example.com',
     'supportEmail' => 'support@example.com',
     'user.passwordResetTokenExpire' => 3600,
-    'installed' => true,
-    'databaseInstalled' => true,
+    'installed' => false,
+    'databaseInstalled' => false,
     'dynamicConfigFile' => '@app/config/easy-online-dynamic.php',
     'moduleAutoloadPaths' => ['@app/modules', '@zikwall/easy-online/modules'],
     'moduleCustomPath' => '@app/modules',
@@ -29,4 +29,7 @@ return [
     ],
     'allowedLanguages' => [],
     'defaultPermissions' => [],
+    'easyonline' => [
+        'apiEnabled' => false
+    ]
 ];

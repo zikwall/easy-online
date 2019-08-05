@@ -50,7 +50,7 @@ class MigrateController extends \yii\console\controllers\MigrateController
 
         $this->migrationPathMap = [];
         $migrations = [];
-        foreach ($this->getMigrationPaths(['includeCoreModules' => false]) as $migrationPath) {
+        foreach ($this->getMigrationPaths() as $migrationPath) {
             $this->migrationPath = $migrationPath;
             $migrations = array_merge($migrations, parent::getNewMigrations());
             $this->migrationPathMap[$migrationPath] = $migrations;
@@ -97,23 +97,19 @@ class MigrateController extends \yii\console\controllers\MigrateController
      *
      * @return array
      */
-    public function getMigrationPaths($options = [])
+    protected function getMigrationPaths()
     {
         $migrationPaths = ['base' => $this->migrationPath];
-
-        if ($options['includeCoreModules']){
-            foreach (Yii::$app->moduleManager->getCoreModules() as $module => $class){
-                $reflector = new \ReflectionClass($class);
-                $path = dirname($reflector->getFileName()) . '/migrations';
-                if (is_dir($path)) {
-                    $migrationPaths[$module] = $path;
-                }
-            }
-        }
-
         foreach (Yii::$app->getModules() as $id => $config) {
+            $class = null;
             if (is_array($config) && isset($config['class'])) {
-                $reflector = new \ReflectionClass($config['class']);
+                $class = $config['class'];
+            } elseif ($config instanceof Module) {
+                $class = get_class($config);
+            }
+
+            if ($class !== null) {
+                $reflector = new \ReflectionClass($class);
                 $path = dirname($reflector->getFileName()) . '/migrations';
                 if (is_dir($path)) {
                     $migrationPaths[$id] = $path;
@@ -121,7 +117,7 @@ class MigrateController extends \yii\console\controllers\MigrateController
             }
         }
 
-		return $migrationPaths;
+        return $migrationPaths;
     }
 
     /**
