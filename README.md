@@ -12,12 +12,14 @@
 $config = yii\helpers\ArrayHelper::merge(
     require __DIR__ . '/../config/web.php',
     require __DIR__ . '/../vendor/zikwall/easy-online/modules/core/config/web.php',
-    (is_readable(__DIR__ . '/../vendor/zikwall/easy-online/modules/core/config/dynamic.php'))
-        ? require(__DIR__ . '/../vendor/zikwall/easy-online/modules/core/config/dynamic.php')
+    (is_readable(__DIR__ . '/../config/easy-online-dynamic.php'))
+        ? require(__DIR__ . '/../config/easy-online-dynamic.php')
         : []
 );
 
-(new \zikwall\easyonline\modules\core\components\web\Application($config))->run();
+(function ($config) {
+    (new \zikwall\easyonline\modules\core\components\web\Application($config))->run();
+})($config);
 
 ```
 
