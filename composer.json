@@ -15,7 +15,11 @@
   ],
   "require": {
     "php": ">=7.1.0",
-    "zikwall/easy-online-composer": "~1.0.0"
+    "zikwall/easy-online-composer": "~1.0.0",
+    "yiisoft/yii2-authclient": "~2.1.0",
+    "yiisoft/yii2-jui": "~2.0.0",
+    "bower-asset/select2": "^4.0",
+    "bower-asset/jquery-timeago": "^1.6"
   },
   "autoload": {
     "psr-4": {

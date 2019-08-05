@@ -2,7 +2,6 @@
 use yii\helpers\Html;
 use zikwall\easyonline\modules\core\widgets\GridView;
 use yii\helpers\Url;
-wswsw
 /* @var $this yii\web\View */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 

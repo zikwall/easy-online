@@ -1,7 +1,7 @@
 <?php if ($outerWrapper): ?>
     <div
     <?= $outerWrapperOptions['id'] ? 'id="'.$outerWrapperOptions['id'].'"' : ''; ?>
-    <?= $outerWrapperOptions['class'] ? 'class="'.$outerWrapperOptions['class'].'"' : ''; ?>
+    <?= isset($outerWrapperOptions['class']) ? 'class="'.$outerWrapperOptions['class'].'"' : ''; ?>
     >
 <?php endif; ?>
 <style>

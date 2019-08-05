@@ -6,9 +6,10 @@ return [
     'user.passwordResetTokenExpire' => 3600,
     'installed' => true,
     'databaseInstalled' => true,
-    'dynamicConfigFile' => '@zikwall/easy-online/modules/core/config/dynamic.php',
+    'dynamicConfigFile' => '@app/config/easy-online-dynamic.php',
     'moduleAutoloadPaths' => ['@app/modules', '@zikwall/easy-online/modules'],
     'moduleCustomPath' => '@app/modules',
+    'enablePjax' => false,
     'availableLanguages' => [
         'en' => 'English (US)',
         'en_gb' => 'English (UK)',

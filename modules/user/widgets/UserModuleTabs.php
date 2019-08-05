@@ -12,7 +12,7 @@ class UserModuleTabs extends \zikwall\easyonline\modules\core\widgets\BaseMenu
     /**
      * @inheritdoc
      */
-    public $template = "@zikwall/easyonline/modules/ui/widgets/views/tabMenu";
+    public $template = "@zikwall/easyonline/modules/core/widgets/views/tabMenu";
 
     /**
      * @inheritdoc
